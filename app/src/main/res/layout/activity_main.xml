@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+    <EditText
+        android:id="@+id/edtNumber1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="عدد اول"
+        android:inputType="numberDecimal"/>
+
+
+    <EditText
+        android:id="@+id/edtNumber2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="عدد دوم"
+        android:inputType="numberDecimal"/>
+
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="جمع"/>
+
+
+    <Button
+        android:id="@+id/btnSubtract"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="تفریق"/>
+
+
+    <Button
+        android:id="@+id/btnMultiply"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ضرب"/>
+
+
+    <Button
+        android:id="@+id/btnDivide"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="تقسیم"/>
+
+
+    <TextView
+        android:id="@+id/txtResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="نتیجه:"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:paddingTop="16dp"/>
+</LinearLayout>
